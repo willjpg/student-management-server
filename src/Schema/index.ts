@@ -1,11 +1,14 @@
 import { GraphQLObjectType, GraphQLSchema } from "graphql";
-import { GET_ALL_STUDENTS } from './Queries/Student'
+import { GET_ALL_STUDENTS, GET_BY_CPF, GET_BY_EMAIL, GET_BY_NAME } from './Queries/Student'
 import { CREATE_STUDENT, DELETE_STUDENT, UPDATE_STUDENT } from './Mutations/Student'
 
 const RootQuery = new GraphQLObjectType({
     name: "RootQuery",
     fields: {
         getAllStudents: GET_ALL_STUDENTS,
+        getByName: GET_BY_NAME,
+        getByEmail: GET_BY_EMAIL,
+        getByCpf: GET_BY_CPF,
     },
 })
 

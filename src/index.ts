@@ -10,12 +10,12 @@ import { Students } from './Entities/Students'
 const main = async () => {
         await createConnection ({
             type: "mysql",
-            host: "database-node",
-            database:"db-students",
+            host: "localhost",
+            database:"db_students",
             username:"root",
             password:"root",
             logging:true,
-            synchronize:true,
+            synchronize:false,
             entities:[Students],
 
         });
