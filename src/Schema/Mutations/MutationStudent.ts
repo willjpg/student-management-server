@@ -1,6 +1,7 @@
 import { GraphQLID, GraphQLString } from "graphql";
 import { Students } from "../../Entities/Students";
-import { UserType } from "../TypeDefs/Student";
+import { MessageType } from "../TypeDefs/TypeMessages";
+import { UserType } from "../TypeDefs/TypeStudent";
 
 
 export const CREATE_STUDENT = {
@@ -18,7 +19,7 @@ export const CREATE_STUDENT = {
 }
 
 export const UPDATE_STUDENT = {
-    type: UserType,
+    type: MessageType,
     args: {
         name: { type: GraphQLString },
         newEmail: { type: GraphQLString },
@@ -37,12 +38,14 @@ export const UPDATE_STUDENT = {
 }
 
 export const DELETE_STUDENT = {
-    type: UserType,
+    type: MessageType,
     args: {
         id: { type: GraphQLID },
     },
     async resolve(parent: any, args: any) {
         const id = args.id;
         await Students.delete(id);
+
+        return {successful: true, message: "DELETE WORKED"}
     },
 }    

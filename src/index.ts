@@ -11,11 +11,11 @@ const main = async () => {
         await createConnection ({
             type: "mysql",
             host: "localhost",
-            database:"db_students",
+            database:"sys",
             username:"root",
             password:"root",
             logging:true,
-            synchronize:false,
+            synchronize:true,
             entities:[Students],
 
         });
