@@ -16,7 +16,7 @@
 
 
 <H2 id="about">📙 Sobre</H2>
-Criado para controlar os dados de alunos, com funções como editar informações que constam no banco de dados,
+Criado para controlar os dados dos estudantes, com funções de editar informações que constam no banco de dados,
 pesquisar por nome, e-mail ou cpf e também registar novos alunos.  
 
 
