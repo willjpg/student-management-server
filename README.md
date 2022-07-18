@@ -34,7 +34,7 @@ pesquisar por nome, e-mail ou cpf e também registar novos alunos.
 
 <H2 id="run">🚀 Rodar a aplicação</H2>
 
-Para rodar a aplicação é necessario ter instalado em sua máquina o [MySQL](https://dev.mysql.com/downloads/installer/)
+Para rodar a aplicação é necessário ter instalado em sua máquina o [MySQL](https://dev.mysql.com/downloads/installer/)
 
 ```shell
   git clone https://github.com/willjpg/student-management-server.git
