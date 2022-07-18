@@ -45,8 +45,9 @@ Para rodar a aplicação é necessario ter instalado em sua máquina o [MySQL](h
   yarn dev
   # after the app is running, you can acess it on the browser with the following link:
   
-  # http://localhost:3001
+  # http://localhost:3001/graphql
 ```
+
 ---
 
   ### <p align="center"> Made by [Willian Ferreira](https://www.linkedin.com/in/willfdasilva/) 
