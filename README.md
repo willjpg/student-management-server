@@ -17,7 +17,7 @@
 
 <H2 id="about">📙 Sobre</H2>
 Criado para controlar os dados dos estudantes, com funções de editar informações que constam no banco de dados,
-pesquisar por nome, e-mail ou cpf e também registar novos alunos.  
+pesquisar por Nome, E-mail ou CPF e também registar novos alunos.  
 
 
 ---
@@ -34,7 +34,7 @@ pesquisar por nome, e-mail ou cpf e também registar novos alunos.
 
 <H2 id="run">🚀 Rodar a aplicação</H2>
 
-Para rodar a aplicação é necessário ter instalado em sua máquina o [MySQL](https://dev.mysql.com/downloads/installer/)
+Para rodar a aplicação é necessário ter instalado em sua máquina o [MySQL](https://dev.mysql.com/downloads/installer/).
 
 ```shell
   git clone https://github.com/willjpg/student-management-server.git
